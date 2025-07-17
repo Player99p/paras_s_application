@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #2F2200;
+    --global-bg-2: #00000033;
+    --global-bg-3: #e9aa00;
+    --global-bg-4: #fff6e0;
+    --global-bg-5: #ffffff;
+    --global-bg-6: #ffffff19;
+    
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #010e0f;
+    --text-muted: #515258;
+    --text-white: #ffffff;
+    --text-gray: #a3a3a3;
+    
+    /* Button Colors */
+    --button-text: #e9aa00;
+    
+    /* Input Colors */
+    --input-text: #a3a3a3;
+  }
+}
+
+@layer utilities {
+  /* Global Backgrounds */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .bg-global-4 {
+    background-color: var(--global-bg-4);
+  }
+  .bg-global-5 {
+    background-color: var(--global-bg-5);
+  }
+  .bg-global-6 {
+    background-color: var(--global-bg-6);
+  }
+  
+  /* Text Colors */
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-muted {
+    color: var(--text-muted);
+  }
+  .text-white {
+    color: var(--text-white);
+  }
+  .text-gray {
+    color: var(--text-gray);
+  }
+  .text-button {
+    color: var(--button-text);
+  }
+  .text-input {
+    color: var(--input-text);
+  }
+  
+  /* Hide scrollbar for horizontal scrolling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
+  /* Smooth scrolling behavior */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  
+  /* Touch action for better mobile scrolling */
+  .touch-pan-x {
+    touch-action: pan-x;
+  }
+}
