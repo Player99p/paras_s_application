@@ -141,7 +141,7 @@ const Home = () => {
       description: " Hygienically processed and lab-tested for safety and shelf-life."
     },
     {
-      icon: "/images/img_vector.svg",
+      icon: "/images/img_frame.svg",
       title: "Customer - Centric Approach:",
       description: " Flexible order quantities, responsive service, and long-term partnership focus."
     }
