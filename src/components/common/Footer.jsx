@@ -103,11 +103,14 @@ const Footer = () => {
                   alt="Social Media" 
                   className="w-8 h-8 lg:w-11 lg:h-11 hover:opacity-80 transition-opacity cursor-pointer"
                 />
+                <a href="https://x.com/EverlinkExim" target="_blank" rel="noopener noreferrer">
+
                 <img 
                   src="/images/img_group_white_a700.svg" 
                   alt="Social Media" 
                   className="w-8 h-8 lg:w-11 lg:h-11 hover:opacity-80 transition-opacity cursor-pointer"
                 />
+                </a>
               </div>
             </div>
           </div>
