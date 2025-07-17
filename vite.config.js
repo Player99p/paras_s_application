@@ -8,7 +8,7 @@ import tagger from "@dhiwise/component-tagger";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),tagger()],
-  base: '/paras_s_application_0025/',
+  base: '/',
   build: {
     outDir: "build",
   },
