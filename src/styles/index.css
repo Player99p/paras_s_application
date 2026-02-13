@@ -1,13 +1,26 @@
 @import './tailwind.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
+html {
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   font-family: 'Poppins', 'Lato', 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  min-width: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+/* Prevent horizontal scroll on mobile */
+#root {
+  overflow-x: hidden;
+  min-width: 0;
 }
